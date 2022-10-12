@@ -7,8 +7,6 @@ function sumPowersOf2ByIterative(n) {
     return sum;
 }
 
-console.log(sumPowersOf2ByIterative(4))
-
 //recursive form of sumPowersOf2ByIterative(n)
 function sumPowersOf2ByRecursion(n) {
     if(n === 1) {
