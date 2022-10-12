@@ -1,7 +1,7 @@
 
 function insertionSort(arr) {
     let currentVal, j;
-    for (let i = 1; i < arr.length; i++) {
+    for (let i = 1; i < arr.length; ++i) {
         currentVal = arr[i];
         j = i - 1;
 
